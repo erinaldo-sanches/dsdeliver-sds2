@@ -1,4 +1,4 @@
-package br.com.ticlab.dsdeliver.respositories;
+package br.com.ticlab.dsdeliver.repositories;
 
 import java.util.List;
 

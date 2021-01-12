@@ -13,8 +13,8 @@ import br.com.ticlab.dsdeliver.dto.ProductDTO;
 import br.com.ticlab.dsdeliver.entities.Order;
 import br.com.ticlab.dsdeliver.entities.OrderStatus;
 import br.com.ticlab.dsdeliver.entities.Product;
-import br.com.ticlab.dsdeliver.respositories.OrderRepository;
-import br.com.ticlab.dsdeliver.respositories.ProductRepository;
+import br.com.ticlab.dsdeliver.repositories.OrderRepository;
+import br.com.ticlab.dsdeliver.repositories.ProductRepository;
 
 @Service
 public class OrderService {
