@@ -1,5 +1,5 @@
 import './styles.css';
-import { ReactComponent as MainImage } from '../Images/main.svg';
+import MainImage from '../Images/main.svg';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 
@@ -24,7 +24,7 @@ function Home(){
 
                     </div>
                     <div className="home-image">
-                        <MainImage/>
+                        <img src = {MainImage} />
                     </div>
                                     
                 </div>

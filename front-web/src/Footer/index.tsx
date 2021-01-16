@@ -1,7 +1,7 @@
 import './styles.css';
-import { ReactComponent as YouTubeIcon } from "../Images/youtube.svg";
-import { ReactComponent as LinkedInIcon } from "../Images/linkedin.svg";
-import { ReactComponent as InstagramIcon } from "../Images/instagram.svg";
+import YouTubeIcon from "../Images/youtube.svg";
+import LinkedInIcon from "../Images/linkedin.svg";
+import InstagramIcon from "../Images/instagram.svg";
 
 function Footer(){
     return(
@@ -9,15 +9,15 @@ function Footer(){
             App desenvolvido durante a 2ª edição do evento Semana DevSuperior
             <div className="footer-icons">
                 <a href="https://www.youtube.com/c/DevSuperior" target="_new">
-                    <YouTubeIcon />
+                    <img src = {YouTubeIcon} />
 
                 </a>
                 <a href="https://www.linkedin.com/school/devsuperior/" target="_new">
-                    <LinkedInIcon />
+                    <img src = {LinkedInIcon} />
 
                 </a>
                 <a href="https://www.instagram.com/devsuperior.ig/">
-                    <InstagramIcon />
+                    <img src = {InstagramIcon} />
 
                 </a>
             </div>
