@@ -24,9 +24,7 @@ function Home(){
 
                     </div>
                     <div className="home-image">
-                        <img 
-                            src = {MainImage} 
-                            alt = "Main Image"
+                        <img src = {MainImage} alt = "MainImage"
                         />
                     </div>
                                     
