@@ -24,7 +24,10 @@ function Home(){
 
                     </div>
                     <div className="home-image">
-                        <img src = {MainImage} />
+                        <img 
+                            src = {MainImage} 
+                            alt = "Main Image"
+                        />
                     </div>
                                     
                 </div>
