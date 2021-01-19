@@ -9,8 +9,9 @@ export function fetchProducts(){
 }
 
 export function fetchLocalMapBox(local: string){
-    return axios(`https://api.mapbox.com/geocoding/v5/mapbox.places/paris.json?access_token=${mapboxToken}`)
+    //return axios(`https://api.mapbox.com/geocoding/v5/mapbox.places/${local}.json?access_token=${mapboxToken}`)
     //return axios(`https://api.mapbox.com/tokens/v2/erinaldonascimento?access_token=${mapboxToken}`)
+    return axios(`https://api.mapbox.com/geocoding/v5/mapbox.places/${local}.json?access_token=pk.eyJ1IjoiZXJpbmFsZG9uYXNjaW1lbnRvIiwiYSI6ImNrazRkNTRyZjFjYngycXBqM2VrajFpNnQifQ.nAGrh1xLYFi03xIrNBvyOg`)
 }
 
 export function saveOrder(payload: OrderPayload){
