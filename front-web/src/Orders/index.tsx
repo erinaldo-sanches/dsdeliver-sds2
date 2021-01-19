@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 
 import Footer from '../Footer';
-import { fetchProducts, saveOrder } from './api';
+import { fetchProducts, saveOrder } from '../api';
 import { checkIsSelected } from './helpers';
 import OrderLocation from './OrderLocation';
 import OrderSummary from './OrderSummary';
